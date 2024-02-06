@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="file"] {
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#outputImages {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px;
+}
+
+
+#outputImagesDiv{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+
+#outputImagesDiv > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 24%;
+}
